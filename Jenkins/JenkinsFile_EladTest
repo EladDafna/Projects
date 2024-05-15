@@ -1,0 +1,50 @@
+pipeline {
+    agent {
+        label 'testjenkins'
+    }
+    parameters {
+        choice(
+            name: 'Language',
+            choices: ['All', 'Python', 'C', 'Java'],
+            description: 'Choose the language',
+        )
+    }
+    stages {
+        stage ('List File - (Step 1)') {
+            steps {
+                echo "step 1 is running...."
+                script {
+                    echo "${WORKSPACE}"
+                    sh 'ls -la'
+                }
+            }
+        }
+        stage ('Enter a File - (Step 2)') {
+            steps {
+                echo "step 2 is running...."
+                script {
+                    sh 'pwd'
+                    sh 'ls -la'
+                    if (params.Language != 'All') {
+                        sh "cat ${params.Language}.txt"
+                    } else {
+                        echo "Skipping Step 2 as Language is 'All'"
+                    }
+                }
+            }
+        }
+        stage ('Save File in Another Agent - (Step 3)') {
+            agent {
+                label 'master'
+            }
+            steps {
+                echo "Step 3 is running..."
+                script {
+                    sh 'cd ~'
+                       sh "cp -r ${WORKSPACE}/[CJP]*.txt ~/Test_Project/"
+
+                }
+            }
+        }
+    }
+}

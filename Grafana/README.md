@@ -7,13 +7,21 @@ In this project, I developed a comprehensive Grafana dashboard to monitor the he
 - Container Level Monitoring: Keep an eye on CPU and memory usage at the container level.
 The data is sourced from Prometheus and visualized through Grafana, which enables dynamic querying and detailed monitoring. By incorporating variables for node, namespace, pod, and container, the dashboard ensures flexible and granular analysis of cluster metrics.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Below are screenshots illustrating the Grafana dashboard I created:
-By Node:
+**Below are screenshots illustrating the Grafana dashboard I created:**
+
+**By Node:**
+
 <img width="911" alt="image" src="https://github.com/user-attachments/assets/4be94b86-26d5-4619-8e23-2d6d6ad31ffd">
-By  NameSpace:
+
+**By  NameSpace:**
+
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/b27fb8c2-3eac-46b7-98b4-dc7e83e1adae">
-By Pod:
+
+**By Pod:**
+
 ![image](https://github.com/user-attachments/assets/828d5594-903a-4769-824a-515fe08bd328)
-By Container:
+
+**By Container:**
+
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/af844777-179b-4833-ae9d-7206376b4f4d">
----
+

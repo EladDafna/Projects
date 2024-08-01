@@ -22,6 +22,30 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 
 
 
+
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div style="width: 45%; margin-bottom: 20px;">
+    <h3>By Node:</h3>
+    <img src="https://github.com/user-attachments/assets/4be94b86-26d5-4619-8e23-2d6d6ad31ffd" alt="By Node" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 45%; margin-bottom: 20px;">
+    <h3>By Namespace:</h3>
+    <img src="https://github.com/user-attachments/assets/b27fb8c2-3eac-46b7-98b4-dc7e83e1adae" alt="By Namespace" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 45%; margin-bottom: 20px;">
+    <h3>By Pod:</h3>
+    <img src="https://github.com/user-attachments/assets/828d5594-903a-4769-824a-515fe08bd328" alt="By Pod" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 45%; margin-bottom: 20px;">
+    <h3>By Container:</h3>
+    <img src="https://github.com/user-attachments/assets/af844777-179b-4833-ae9d-7206376b4f4d" alt="By Container" style="width: 100%; height: auto;">
+  </div>
+</div>
+
+
+
 **By  NameSpace:**
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/b27fb8c2-3eac-46b7-98b4-dc7e83e1adae">
 

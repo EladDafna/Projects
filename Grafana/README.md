@@ -24,5 +24,6 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 
 **By Container:**
 
-<img width="911" alt="image" src="https://github.com/user-attachments/assets/af844777-179b-4833-ae9d-7206376b4f4d">
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/5ab66e38-c2b1-4d68-8928-f28202674dc0">
+
 

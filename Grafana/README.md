@@ -20,5 +20,10 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 **By Node:**
 <img width="911" alt="image" src="https://github.com/user-attachments/assets/4be94b86-26d5-4619-8e23-2d6d6ad31ffd">
 
+**By  NameSpace:**
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/b27fb8c2-3eac-46b7-98b4-dc7e83e1adae">
+
+
+
 
 ---

@@ -15,6 +15,6 @@ In this project, I developed a comprehensive Grafana dashboard to monitor the he
 
 The data is sourced from Prometheus and visualized through Grafana, which enables dynamic querying and detailed monitoring. By incorporating variables for node, namespace, pod, and container, the dashboard ensures flexible and granular analysis of cluster metrics.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Below are screenshots illustrating the Grafana dashboard I created.**
+**Below are screenshots illustrating the Grafana dashboard I created.**:
 
 ---

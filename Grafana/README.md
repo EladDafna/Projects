@@ -19,7 +19,8 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 
 **By Pod:**
 
-![image](https://github.com/user-attachments/assets/828d5594-903a-4769-824a-515fe08bd328)
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/69bbc007-cb6f-4e7f-b191-fab7a3abcf0e">
+
 
 **By Container:**
 

@@ -35,6 +35,3 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 
 *This screenshot highlights the monitoring of CPU and memory usage at the container level.*
 
----
-
-Feel free to adjust the image paths and descriptions according to your needs!

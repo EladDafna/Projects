@@ -15,7 +15,7 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 
 **By  NameSpace:**
 
-<img width="920" alt="image" src="https://github.com/user-attachments/assets/b27fb8c2-3eac-46b7-98b4-dc7e83e1adae">
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/b27fb8c2-3eac-46b7-98b4-dc7e83e1adae">
 
 **By Pod:**
 
@@ -23,5 +23,5 @@ The data is sourced from Prometheus and visualized through Grafana, which enable
 
 **By Container:**
 
-<img width="920" alt="image" src="https://github.com/user-attachments/assets/af844777-179b-4833-ae9d-7206376b4f4d">
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/af844777-179b-4833-ae9d-7206376b4f4d">
 

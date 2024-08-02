@@ -66,7 +66,8 @@ After installation and configuration:
 
 ## Screenshots
 
-[Add your screenshots here with captions]
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/f75ceb06-8005-4781-9673-8afc998985aa">
+
 
 ## Lessons Learned
 

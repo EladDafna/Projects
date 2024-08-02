@@ -77,15 +77,3 @@ After installation and configuration:
 - Integration with external notification systems enhances responsiveness
 - Understanding performance metrics is key to meaningful alerting
 
-## Contributing
-
-Contributions to improve this Zabbix implementation are welcome. Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes and commit them
-4. Push to your fork and submit a pull request
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).

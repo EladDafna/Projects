@@ -4,6 +4,13 @@
 
 This project demonstrates the implementation and configuration of Zabbix, an open-source monitoring solution for IT infrastructure. Zabbix provides real-time monitoring of servers, virtual machines, and network devices, ensuring optimal performance and quick problem detection.
 
+**Tools Used:**
+
+* **Cluster kind:** Used for container orchestration and managing the Zabbix components as containers.
+* **MariaDB:** Used as the relational database for storing Zabbix data.
+* **Zabbix-Agent:** Installed on monitored hosts to collect performance metrics and send them to the Zabbix server.
+* **Zabbix-Server:** The core component responsible for collecting, storing, and analyzing monitoring data.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -18,7 +25,7 @@ This project demonstrates the implementation and configuration of Zabbix, an ope
 
 ## Introduction
 
-Zabbix is a powerful monitoring tool that allows organizations to track the health and performance of their IT infrastructure. This project showcases the setup and configuration of Zabbix for effective server monitoring.
+Zabbix is a powerful monitoring tool that allows organizations to track the health and performance of their IT infrastructure. This project showcases the setup and configuration of Zabbix for effective server monitoring using a containerized approach with Cluster kind and MariaDB.
 
 ## Features
 
@@ -30,23 +37,21 @@ Zabbix is a powerful monitoring tool that allows organizations to track the heal
 
 ## Installation
 
-To set up this Zabbix monitoring system, you'll need to install:
+To set up this Zabbix monitoring system, you'll need to install the following components:
 
-1. Apache Web Server
-2. PHP and required modules
-3. MariaDB Server
-4. Zabbix Server
-5. Zabbix Frontend
-6. Zabbix Agent
+1. Cluster kind
+2. MariaDB
+3. Zabbix Server
+4. Zabbix Agent
 
-Detailed installation steps are available in the [project documentation](docs/installation.md).
+Detailed installation steps for each component, including using Cluster kind for container orchestration, are available in the [project documentation](docs/installation.md).
 
 ## Configuration
 
 Key configuration steps include:
 
-1. Database setup
-2. Zabbix server configuration
+1. Database setup in MariaDB
+2. Zabbix server configuration with containerized deployment
 3. Web interface setup
 4. Agent configuration on monitored hosts
 5. Creating hosts and items in Zabbix
@@ -65,10 +70,6 @@ After installation and configuration:
 5. Monitor your infrastructure through the dashboard
 
 ## Screenshots
-
-<img width="911" alt="image" src="https://github.com/user-attachments/assets/840c09d4-bda5-4e3e-a847-9df3a8b70692">
-
-
 
 ## Lessons Learned
 

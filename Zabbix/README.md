@@ -66,7 +66,8 @@ After installation and configuration:
 
 ## Screenshots
 
-<img width="911" alt="image" src="https://github.com/user-attachments/assets/f75ceb06-8005-4781-9673-8afc998985aa">
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/840c09d4-bda5-4e3e-a847-9df3a8b70692">
+
 
 
 ## Lessons Learned

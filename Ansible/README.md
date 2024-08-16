@@ -1,29 +1,33 @@
-Training Project - 9 points
-Create ROLE with 7 tasks
-1 - 5 ( copy file 1.txt to host.  use loop to print 3 time some message,  print os_family of host, create (text)variable and print it )
-6 - 8 ( use delegate_to: )  ( to save host-ip in log.txt on master,  reboot host  and then save to log.txt the time  then host rebooted ) 
+# Ansible Project Overview
 
+## Summary
+This project demonstrates the use of Ansible for automating server configurations and software installations. It includes various playbooks that handle tasks such as installing essential tools, setting up an Apache server, and verifying server types.
 
-Final Project - 91 points
-Create Role what 
-1.install some packages (htop, tree . . .)
-2. update system
-3. install Apache/httpd
-4. Then copy files to hosts
-5. Print how many RedHat and how many Debian(Ubuntu) hosts 
-   (only 1 time)
+## Playbooks Explanation
 
+### 1. `ping.yml`
+   - **Purpose:** A simple playbook that pings the target hosts to ensure connectivity.
+   - **Tasks:** Executes the ping module to check host availability.
 
+### 2. `installs.yml`
+   - **Purpose:** Installs essential packages on the target servers.
+   - **Tasks:**
+     - Installs Python
+     - Installs `net-tools`
+     - Installs `tree`
+     - Installs `htop`
 
+### 3. `install_apache.yml`
+   - **Purpose:** Installs Apache on the target server and checks if port 80 is open.
+   - **Tasks:**
+     - Installs Apache web server
+     - Verifies that port 80 is open
+     - Uses `any_errors_fatal: true` to halt execution if any error occurs (e.g., port 80 is closed).
 
-Description of the roles in the project:
+### 4. `Server.yml`
+   - **Purpose:** Determines the server's operating system (Debian or RedHat).
+   - **Tasks:** Displays whether the server is running on Debian or RedHat.
 
-ping.yml - only task ping.
-
-installs.yml - tasks: install python, install net-tools, install tree, install htop.
-
-install_apache.yml - tasks: install Apache and chack if port 80 open. in addition every time the program shows an error (for example, port 80 is closed), the program automatically stops by adding the command in the install_apache.yml file:    any_errors_fatal: true
-
-Server.yml - tasks will show you while server is Debian/Redhat
-
-servers_new.yml - like as Server.yml but this is the another solution (This is the solution you explained to me on the phone)
+### 5. `servers_new.yml`
+   - **Purpose:** Provides an alternative solution to `Server.yml`.
+   - **Tasks:** Similar to `Server.yml`, it identifies the server's operating system but uses a different approach.
